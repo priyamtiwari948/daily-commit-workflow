@@ -1,4 +1,4 @@
-name: 24f20053987@ds.study.iitm.ac.in
+name: priyamtiwari1586@gmail.com
 on:
   schedule:
     - cron: '15 4 * * *'
