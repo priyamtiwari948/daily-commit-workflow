@@ -1,5 +1,6 @@
 24f2005398@ds.study.iitm.ac.in
-name: priyamtiwari1586@gmail.com
+name: Daily Commit
+
 on:
   schedule:
     - cron: '15 4 * * *'
@@ -14,7 +15,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}  # ✅ allows push access
 
-      - name: Commit step - priyamtiwari1586@gmail.com
+      - name: Commit step - 24f20053987@ds.study.iitm.ac.in
         run: |
           echo "TDSFU Daily run: $(date -u) TDSFU" >> daily-log.txt
 
