@@ -1,4 +1,3 @@
-24f2005398@ds.study.iitm.ac.in
 name: Daily Commit
 
 on:
@@ -15,7 +14,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}  # ✅ allows push access
 
-      - name: Commit step - 24f20053987@ds.study.iitm.ac.in
+      - name: Commit step - 24f2005398@ds.study.iitm.ac.in
         run: |
           echo "TDSFU Daily run: $(date -u) TDSFU" >> daily-log.txt
 
